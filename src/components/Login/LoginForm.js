@@ -31,11 +31,11 @@ const Login = () => {
           'Authorization': `Bearer ${token}`,
         };
   
-        // Example: Fetch a protected route
-        const protectedRouteResponse = await fetch('/protected-route', {
-          method: 'GET',
-          headers: headers,
-        });
+        // // Example: Fetch a protected route
+        // const protectedRouteResponse = await fetch('/protected-route', {
+        //   method: 'GET',
+        //   headers: headers,
+        // });
   
         // Handle the response for the protected route here
   
