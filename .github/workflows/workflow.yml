@@ -29,6 +29,6 @@ jobs:
             with:
              branch: gh-pages   
              folder: build
-            #  token: ${{ secrets.WORKFLOW}}
+             token: ${{ secrets.CHECKIN}}
             
     
